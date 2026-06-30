@@ -1,0 +1,28 @@
+policies:
+  - name: strict
+    rules:
+      - category: harmful_instructions
+        action: block
+        threshold: 0.8
+      - category: jailbreak
+        action: block
+        threshold: 0.6
+      - category: data_extraction
+        action: flag
+        threshold: 0.7
+
+analyzers:
+  heuristic: true
+  semantic: true
+  llm_judge:
+    model: gpt-4o
+    enabled: true
+
+logging:
+  level: info
+  audit_trail: true
+  retention_days: 90
+
+alerts:
+  slack:
+    webhook: ""

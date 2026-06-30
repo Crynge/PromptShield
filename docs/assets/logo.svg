@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E53935;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B71C1C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="120" rx="16" fill="url(#g)"/>
+  <text x="40" y="72" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">PromptShield</text>
+  <text x="40" y="100" font-family="Arial, sans-serif" font-size="16" fill="#FFCDD2">LLM Security Framework</text>
+  <path d="M520,40 L540,80 L500,80 Z" fill="#FFCDD2" opacity="0.8"/>
+</svg>
