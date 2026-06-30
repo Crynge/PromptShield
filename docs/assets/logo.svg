@@ -1,12 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 460" fill="none">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#E53935;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#B71C1C;stop-opacity:1" />
+    <linearGradient id="ps-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+    <linearGradient id="ps-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCA5A5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FCA5A5" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="600" height="120" rx="16" fill="url(#g)"/>
-  <text x="40" y="72" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">PromptShield</text>
-  <text x="40" y="100" font-family="Arial, sans-serif" font-size="16" fill="#FFCDD2">LLM Security Framework</text>
-  <path d="M520,40 L540,80 L500,80 Z" fill="#FFCDD2" opacity="0.8"/>
+  <path d="M190 20 L360 100 Q370 200 320 320 L190 440 L60 320 Q10 200 20 100 Z" fill="url(#ps-bg)" stroke="#DC2626" stroke-width="2"/>
+  <path d="M190 20 L360 100 Q370 200 320 320 L190 440 L60 320 Q10 200 20 100 Z" fill="url(#ps-shine)"/>
+  <rect x="155" y="130" width="70" height="100" rx="10" fill="none" stroke="#FEE2E2" stroke-width="6"/>
+  <path d="M170 230 L190 250 L210 230" fill="none" stroke="#FEE2E2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="190" cy="155" r="15" fill="#FEE2E2"/>
+  <text x="190" y="340" font-family="'Arial Black', 'Impact', sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">PROMPT</text>
+  <text x="190" y="380" font-family="'Arial Black', 'Impact', sans-serif" font-size="40" font-weight="900" fill="#FCA5A5" text-anchor="middle" letter-spacing="4">SHIELD</text>
+  <text x="190" y="415" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#FECACA" text-anchor="middle" letter-spacing="6">SECURITY</text>
 </svg>

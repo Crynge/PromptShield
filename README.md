@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="docs/assets/logo.svg" alt="PromptShield" width="600">
-  <h1>PromptShield</h1>
+  <img src="docs/assets/logo.svg" alt="PromptShield" width="280">
   <p><strong>Enterprise LLM Prompt Security & Red-Teaming Framework</strong></p>
   <p>Automated jailbreak detection · Prompt injection testing · Policy enforcement · Audit trails</p>
 
