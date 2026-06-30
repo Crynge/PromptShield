@@ -1,8 +1,6 @@
 """PromptShield Python backend — LLM security analysis and reporting."""
 
-from typing import Optional
 import httpx
-import json
 import time
 
 
@@ -28,7 +26,7 @@ class ScanResult:
 
 
 class PromptShield:
-    def __init__(self, api_key: Optional[str] = None, policies: Optional[str] = None):
+    def __init__(self, api_key: str | None = None, policies: str | None = None):
         self.api_key = api_key
         self.policies = policies
         self._patterns = self._load_patterns()
